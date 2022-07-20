@@ -1,8 +1,8 @@
 {
   "name": "Contact",
   "scripts": {
-    "dev": "webpack --watch",
-    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode production",
     "start": "webpack --watch"
   },
   "author": "2U",
@@ -24,6 +24,6 @@
     "workbox-webpack-plugin": "^6.2.4"
   },
   "dependencies": {
-   "idb": "^7.0.2"
+    "idb": "^6.1.2"
   }
 }
